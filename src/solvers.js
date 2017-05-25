@@ -18,7 +18,7 @@ var incorrectSolution = [
     [ 0, 0, 0, 0, 0, 0, 1 ],
     [ 0, 0, 0, 0, 1, 0, 0 ],
     [ 0, 0, 0, 1, 0, 0, 0 ]
-  ];
+];
 
 var hasAnyRowConflicts = function(rows) {
   for (let x of rows) {
